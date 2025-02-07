@@ -1,0 +1,587 @@
+{
+  "dentalOffices": [
+    {
+      "id": "office1",
+      "name": "Mumbai Smile Care",
+      "address": "101, Marine Drive, Mumbai, Maharashtra",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400020",
+      "distance": "1.8 km",
+      "contact": "+91 9876543210",
+      "rating": 4.8,
+      "specialties": [
+        "Teeth Cleaning",
+        "Teeth Whitening",
+        "Emergency Care"
+      ],
+      "location": {
+        "lat": 19.076,
+        "lng": 72.8777
+      },
+      "openingHours": {
+        "Monday": "09:00 AM - 06:00 PM",
+        "Tuesday": "09:00 AM - 06:00 PM",
+        "Wednesday": "09:00 AM - 06:00 PM",
+        "Thursday": "09:00 AM - 06:00 PM",
+        "Friday": "09:00 AM - 06:00 PM",
+        "Saturday": "10:00 AM - 04:00 PM",
+        "Sunday": "Closed"
+      },
+      "services": [
+        {
+          "id": "service1",
+          "name": "Teeth Cleaning",
+          "description": "Professional cleaning for a healthy and brighter smile.",
+          "price": 1500
+        },
+        {
+          "id": "service2",
+          "name": "Teeth Whitening",
+          "description": "Get a sparkling white smile with our advanced whitening treatment.",
+          "price": 3500
+        },
+        {
+          "id": "service3",
+          "name": "Emergency Care",
+          "description": "Immediate dental care for urgent cases and pain relief.",
+          "price": 5000
+        }
+      ]
+    },
+    {
+      "id": "office2",
+      "name": "Delhi Dental Clinic",
+      "address": "45, Connaught Place, New Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110001",
+      "distance": "2.5 km",
+      "contact": "+91 8765432109",
+      "rating": 4.5,
+      "specialties": [
+        "Teeth Cleaning",
+        "Teeth Whitening",
+        "Root Canal"
+      ],
+      "location": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "openingHours": {
+        "Monday": "08:30 AM - 07:30 PM",
+        "Tuesday": "08:30 AM - 07:30 PM",
+        "Wednesday": "08:30 AM - 07:30 PM",
+        "Thursday": "08:30 AM - 07:30 PM",
+        "Friday": "08:30 AM - 07:30 PM",
+        "Saturday": "09:00 AM - 05:00 PM",
+        "Sunday": "Closed"
+      },
+      "services": [
+        {
+          "id": "service1",
+          "name": "Teeth Cleaning",
+          "description": "Professional cleaning for a healthy and brighter smile.",
+          "price": 1200
+        },
+        {
+          "id": "service2",
+          "name": "Teeth Whitening",
+          "description": "Get a sparkling white smile with our advanced whitening treatment.",
+          "price": 4000
+        },
+        {
+          "id": "service4",
+          "name": "Root Canal Treatment",
+          "description": "Painless root canal therapy to save and restore your tooth.",
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "office3",
+      "name": "Bangalore Dental Care",
+      "address": "12, MG Road, Bangalore, Karnataka",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001",
+      "distance": "3.2 km",
+      "contact": "+91 9988776655",
+      "rating": 4.7,
+      "specialties": [
+        "Orthodontics",
+        "Root Canal"
+      ],
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "openingHours": {
+        "Monday": "10:00 AM - 08:00 PM",
+        "Tuesday": "10:00 AM - 08:00 PM",
+        "Wednesday": "10:00 AM - 08:00 PM",
+        "Thursday": "10:00 AM - 08:00 PM",
+        "Friday": "10:00 AM - 08:00 PM",
+        "Saturday": "11:00 AM - 05:00 PM",
+        "Sunday": "Closed"
+      },
+      "services": [
+        {
+          "id": "service1",
+          "name": "Teeth Cleaning",
+          "description": "Professional cleaning for a healthy and brighter smile.",
+          "price": 1300
+        },
+        {
+          "id": "service2",
+          "name": "Teeth Whitening",
+          "description": "Get a sparkling white smile with our advanced whitening treatment.",
+          "price": 3800
+        },
+        {
+          "id": "service4",
+          "name": "Root Canal Treatment",
+          "description": "Painless root canal therapy to save and restore your tooth.",
+          "price": 7200
+        }
+      ]
+    },
+    {
+      "id": "office4",
+      "name": "Chennai Dental Hub",
+      "address": "78, Anna Nagar, Chennai, Tamil Nadu",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600102",
+      "distance": "4.1 km",
+      "contact": "+91 9876012345",
+      "rating": 4.6,
+      "specialties": [
+        "Teeth Cleaning",
+        "Braces",
+        "Pediatric Dentistry"
+      ],
+      "location": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "openingHours": {
+        "Monday": "09:00 AM - 06:30 PM",
+        "Tuesday": "09:00 AM - 06:30 PM",
+        "Wednesday": "09:00 AM - 06:30 PM",
+        "Thursday": "09:00 AM - 06:30 PM",
+        "Friday": "09:00 AM - 06:30 PM",
+        "Saturday": "09:00 AM - 02:00 PM",
+        "Sunday": "Closed"
+      },
+      "services": [
+        {
+          "id": "service1",
+          "name": "Teeth Cleaning",
+          "description": "Professional cleaning for a healthy and brighter smile.",
+          "price": 1400
+        },
+        {
+          "id": "service2",
+          "name": "Teeth Whitening",
+          "description": "Get a sparkling white smile with our advanced whitening treatment.",
+          "price": 3900
+        },
+        {
+          "id": "service3",
+          "name": "Braces Installation",
+          "price": 15000
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "service1",
+      "name": "Teeth Cleaning",
+      "description": "Professional cleaning for a healthy and brighter smile."
+    },
+    {
+      "id": "service2",
+      "name": "Teeth Whitening",
+      "description": "Get a sparkling white smile with our advanced whitening treatment."
+    },
+    {
+      "id": "service3",
+      "name": "Emergency Care",
+      "description": "Immediate dental care for urgent cases and pain relief."
+    },
+    {
+      "id": "service4",
+      "name": "Root Canal Treatment",
+      "description": "Painless root canal therapy to save and restore your tooth."
+    }
+  ],
+  "dentists": [
+    {
+      "id": "dentist1",
+      "name": "Dr. Anil Mehta",
+      "specialties": [
+        "Teeth Cleaning",
+        "Pediatric Dentistry"
+      ],
+      "services": [
+        "service1"
+      ],
+      "rating": 4.9,
+      "experience": "15 years",
+      "photo": "https://example.com/images/dr-anil-mehta.jpg",
+      "phone": "+91 9876543210",
+      "officeId": "office1",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zip": "400020",
+      "consultationFee": 800,
+      "unavailableSlots": [
+        {
+          "date": "2025-02-10",
+          "times": [
+            "09:30 AM",
+            "12:00 PM"
+          ]
+        },
+        {
+          "date": "2025-02-12",
+          "times": [
+            "02:30 PM",
+            "04:00 PM",
+            "05:30 PM"
+          ]
+        },
+        {
+          "date": "2025-02-15",
+          "times": [
+            "10:00 AM",
+            "01:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dentist2",
+      "name": "Dr. Priya Sharma",
+      "specialties": [
+        "Teeth Whitening",
+        "Root Canal"
+      ],
+      "services": [
+        "service2",
+        "service4"
+      ],
+      "rating": 4.7,
+      "experience": "10 years",
+      "photo": "https://example.com/images/dr-priya-sharma.jpg",
+      "phone": "+91 8765432109",
+      "officeId": "office2",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "zip": "110001",
+      "consultationFee": 1000,
+      "unavailableSlots": [
+        {
+          "date": "2025-02-15",
+          "times": [
+            "10:00 AM",
+            "01:30 PM",
+            "03:00 PM"
+          ]
+        },
+        {
+          "date": "2025-02-16",
+          "times": [
+            "11:30 AM",
+            "02:00 PM",
+            "06:30 PM"
+          ]
+        },
+        {
+          "date": "2025-02-18",
+          "times": [
+            "09:00 AM",
+            "12:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dentist3",
+      "name": "Dr. Ramesh Kapoor",
+      "specialties": [
+        "Root Canal",
+        "Orthodontics"
+      ],
+      "services": [
+        "service4"
+      ],
+      "rating": 4.8,
+      "experience": "12 years",
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "phone": "+91 9988776655",
+      "officeId": "office3",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560001",
+      "consultationFee": 1200,
+      "unavailableSlots": [
+        {
+          "date": "2025-02-11",
+          "times": [
+            "08:00 AM",
+            "11:30 AM"
+          ]
+        },
+        {
+          "date": "2025-02-13",
+          "times": [
+            "02:00 PM",
+            "04:30 PM"
+          ]
+        },
+        {
+          "date": "2025-02-14",
+          "times": [
+            "10:00 AM",
+            "12:00 PM",
+            "03:30 PM",
+            "11:30 AM",
+            "02:00 PM",
+            "03:00 PM",
+            "05:30 PM",
+            "11:00 AM"
+          ]
+        },
+        {
+          "date": "2025-02-20",
+          "times": [
+            "03:00 PM"
+          ]
+        },
+        {
+          "date": "2025-02-08",
+          "times": [
+            "11:00 AM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dentist4",
+      "name": "Dr. Kavita Nair",
+      "specialties": [
+        "Oral Surgery",
+        "Dental Implants"
+      ],
+      "services": [
+        "service3",
+        "service1"
+      ],
+      "rating": 4.6,
+      "experience": "9 years",
+      "photo": "https://example.com/images/dr-kavita-nair.jpg",
+      "phone": "+91 9876012345",
+      "officeId": "office4",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "600102",
+      "consultationFee": 1500,
+      "unavailableSlots": [
+        {
+          "date": "2025-02-09",
+          "times": [
+            "10:00 AM",
+            "01:00 PM"
+          ]
+        },
+        {
+          "date": "2025-02-10",
+          "times": [
+            "11:30 AM",
+            "02:30 PM"
+          ]
+        },
+        {
+          "date": "2025-02-12",
+          "times": [
+            "09:30 AM",
+            "12:30 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "date": "2025-02-14",
+          "times": [
+            "09:30 AM"
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "TestUser",
+      "email": "wixpolo@gmail.com",
+      "phone": "9859869874",
+      "password": "$2a$10$wXa6j6lLe8tXjpZW0/ui7O83jOPs6rAMXzzR3yv9CV65RHrWvZ4UG"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-14",
+      "time": "11:30 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-14",
+      "time": "02:00 PM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-14",
+      "time": "03:00 PM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-20",
+      "time": "03:00 PM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-14",
+      "time": "05:30 PM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "officeId": "office4",
+      "officeName": "Chennai Dental Hub",
+      "serviceId": "service1",
+      "serviceName": "Teeth Cleaning",
+      "servicePrice": 1400,
+      "dentistId": "dentist4",
+      "dentistName": "Dr. Kavita Nair",
+      "date": "2025-02-14",
+      "time": "09:30 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-08",
+      "time": "11:00 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-14",
+      "time": "11:00 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    }
+  ]
+}
