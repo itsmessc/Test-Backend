@@ -358,7 +358,8 @@
         {
           "date": "2025-02-20",
           "times": [
-            "03:00 PM"
+            "03:00 PM",
+            "03:30 PM"
           ]
         },
         {
@@ -416,6 +417,12 @@
           "date": "2025-02-14",
           "times": [
             "09:30 AM"
+          ]
+        },
+        {
+          "date": "2025-02-13",
+          "times": [
+            "10:30 AM"
           ]
         }
       ]
@@ -478,9 +485,9 @@
       "servicePrice": 7200,
       "dentistId": "dentist3",
       "dentistName": "Dr. Ramesh Kapoor",
+      "status": "Confirmed",
       "date": "2025-02-14",
       "time": "03:00 PM",
-      "status": "Confirmed",
       "paymentStatus": "Paid",
       "location": {
         "lat": 12.9716,
@@ -497,28 +504,9 @@
       "servicePrice": 7200,
       "dentistId": "dentist3",
       "dentistName": "Dr. Ramesh Kapoor",
-      "date": "2025-02-20",
-      "time": "03:00 PM",
-      "status": "Confirmed",
-      "paymentStatus": "Paid",
-      "location": {
-        "lat": 12.9716,
-        "lng": 77.5946
-      },
-      "userId": 1
-    },
-    {
-      "id": 5,
-      "officeId": "office3",
-      "officeName": "Bangalore Dental Care",
-      "serviceId": "service4",
-      "serviceName": "Root Canal Treatment",
-      "servicePrice": 7200,
-      "dentistId": "dentist3",
-      "dentistName": "Dr. Ramesh Kapoor",
       "date": "2025-02-14",
-      "time": "05:30 PM",
-      "status": "Confirmed",
+      "time": "04:00 PM",
+      "status": "Cancelled",
       "paymentStatus": "Paid",
       "location": {
         "lat": 12.9716,
@@ -580,6 +568,44 @@
       "location": {
         "lat": 12.9716,
         "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "officeId": "office3",
+      "officeName": "Bangalore Dental Care",
+      "serviceId": "service4",
+      "serviceName": "Root Canal Treatment",
+      "servicePrice": 7200,
+      "dentistId": "dentist3",
+      "dentistName": "Dr. Ramesh Kapoor",
+      "date": "2025-02-20",
+      "time": "03:30 PM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "officeId": "office4",
+      "officeName": "Chennai Dental Hub",
+      "serviceId": "service1",
+      "serviceName": "Teeth Cleaning",
+      "servicePrice": 1400,
+      "dentistId": "dentist4",
+      "dentistName": "Dr. Kavita Nair",
+      "date": "2025-02-13",
+      "time": "10:30 AM",
+      "status": "Confirmed",
+      "paymentStatus": "Paid",
+      "location": {
+        "lat": 13.0827,
+        "lng": 80.2707
       },
       "userId": 1
     }
