@@ -35,7 +35,7 @@ app.use("/services", serviceRoutes);
 app.use("/dentists", dentistRoutes);
 app.use("/appointments", appointmentRoutes);
 
-const PORT = 8000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Mock API is running on http://localhost:${PORT}`);
 });
