@@ -49,7 +49,7 @@ npm start
 
 The API will be available at:
 ```
-http://localhost:5000
+http://localhost:8000
 ```
 
 ---
